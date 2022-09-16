@@ -12,10 +12,10 @@ namespace Module2HW2
 
         public void Draw(Stock stock)
         {
-            for (int i = 0; i < stock.stock.Length; i++)
+            for (int i = 0; i < stock.StockMag.Length; i++)
             {
-                Product prod = stock.stock[i];
-                Console.WriteLine("Id: {0}", prod.id);
+                Product prod = stock.StockMag[i];
+                Console.WriteLine("Id: {0}", prod.Id);
                 Console.WriteLine($"Name: {prod.Name}, Characteristic: {prod.Characteristic}");
                 Console.WriteLine($"Cost: {prod.Cost}");
                 Console.WriteLine();

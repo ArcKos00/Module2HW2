@@ -138,7 +138,7 @@ namespace InternetMarket
                 {
                     if (id == Stock.IdArray[i])
                     {
-                        AddToBasket(Stock.Instance.stock[i]);
+                        AddToBasket(Stock.Instance.StockMag[i]);
                         counter++;
                         Console.WriteLine("У вас в корзине {0} товаров", counter);
                         break;
